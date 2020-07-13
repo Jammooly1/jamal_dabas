@@ -1,0 +1,21 @@
+.ty {
+    /* flex-direction: column !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header {
+    width: 20rem;
+    height: 6rem;
+    background-color: rgba(218, 255, 250, 0.3) !important;
+    border-radius: 10px !important;
+    flex-direction: column !important;
+}
+
+.text {
+    margin-bottom: 16px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+
+}

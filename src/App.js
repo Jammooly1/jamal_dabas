@@ -4,7 +4,7 @@ import Backboard from './Components/Backboard/Backboard';
 
 function App() {
   return (
-    <div>
+    <div className={styles.container}>
       <Backboard/>
     </div>
   );

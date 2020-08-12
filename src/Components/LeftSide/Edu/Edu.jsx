@@ -19,7 +19,7 @@ function Edu() {
             <Card className={styles.header}>
                 <Typography variant="h5" className={cx(styles.text, styles.ty)}>Education</Typography> 
                 <Divider />
-                <CardActionArea href="https://www.utsa.edu/">
+                <CardActionArea target="_blank" href="https://www.utsa.edu/">
                     <CardMedia
                     component="img"
                     alt="UTSA"

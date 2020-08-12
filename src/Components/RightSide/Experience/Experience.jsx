@@ -25,7 +25,6 @@ function Experience() {
                     }}
                     >
                         <h3 style={{ color: '#61b8ff' }}>Application Developer, Optum</h3>
-                        <h4 style={{ color: '#61b8ff' }}>Internship</h4>
                         <p>
                         • Trained in .NET Framework and .NET Core
                         </p>
@@ -42,14 +41,13 @@ function Experience() {
                         dateText="03/2017 – 05/2017"
                         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
                         bodyContainerStyle={{
-                        background: '#ddd',
-                        padding: '20px',
-                        borderRadius: '8px',
-                        boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                            background: '#ddd',
+                            padding: '20px',
+                            borderRadius: '8px',
+                            boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
                         }}
                     >
                         <h3 style={{ color: '#61b8ff' }}>Cyber Security Analyst, UDP Inc</h3>
-                        <h4 style={{ color: '#61b8ff' }}>Internship</h4>
                         <p>
                         • Microsoft Security Event Research
                         </p>
@@ -61,32 +59,18 @@ function Experience() {
                         </p>
                     </TimelineItem>
                     <TimelineItem
-                        key="003"
-                        dateText="06/2012 – 08/2014"
-                        // dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
-                        dateComponent={(
-                            <div
-                                style={{
-                                width:"5rem",
-                                display: 'block',
-                                float: 'left',
-                                padding: '5px',
-                                background: '#61b8ff',
-                                color: '#000',
-                                }}
-                            >
-                                11/2008 – 04/2009
-                            </div>
-                            )}
-                        bodyContainerStyle={{
-                            background: '#ddd',
-                            padding: '20px',
-                            borderRadius: '8px',
-                            boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
-                    }}
+                       key="003"
+                       dateText="06/2012 – 08/2014"
+                       dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+                       bodyContainerStyle={{
+                           background: '#ddd',
+                           padding: '20px',
+                           borderRadius: '8px',
+                           boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                   }}
                     >
-                        <h3>Summer Office Assistant, Dabas Cancer Institute</h3>
-                        <h4>Part-Time</h4>
+                        <h3 style={{ color: '#61b8ff' }}>Summer Office Assistant, Dabas Cancer Institute</h3>
+        
                         <p>
                         • Managed electronic medical records
                         </p>
@@ -96,7 +80,7 @@ function Experience() {
                         <p>
                         </p>
                     </TimelineItem>
-                    <TimelineItem
+                    {/* <TimelineItem
                         key="003"
                         dateComponent={(
                         <div
@@ -122,7 +106,7 @@ function Experience() {
                         reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
                         est.
                         </p>
-                    </TimelineItem>
+                    </TimelineItem> */}
                 </Timeline>
             </div>
             </Box>

@@ -14,7 +14,7 @@ function Backboard() {
                 bgcolor="white"
                 m={6}
                 p={2}
-                style={{ width: '64rem', height: '84rem'}}
+                style={{ width: '64rem', height: '80rem'}}
             >   
                 <Header/>
                 <Box boxShadow={0} display="flex" flexDirection="row">
@@ -23,6 +23,9 @@ function Backboard() {
                     </div>
                     <div className={styles.right}>
                         <Rightside/>
+                    </div>
+                    <div>
+                        
                     </div>
                 </Box>
             </Box>

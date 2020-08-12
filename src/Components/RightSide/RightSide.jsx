@@ -1,5 +1,6 @@
 import React from 'react';
 import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
 import { Box, Grid } from '@material-ui/core';
 
 function RightSide(props) {
@@ -16,6 +17,7 @@ function RightSide(props) {
                     style={{ width: '42.5rem'}}
                     >
                 <Experience/>
+                <Projects/>
                 </Box>
             </Grid>
         </div>

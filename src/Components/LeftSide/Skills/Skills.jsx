@@ -20,6 +20,12 @@ import { ReactComponent as Git } from './icons/git.svg';
 import { ReactComponent as Windows } from './icons/windows.svg';
 import { ReactComponent as Apple } from './icons/apple.svg';
 import { ReactComponent as Terminal } from './icons/terminal.svg';
+import { ReactComponent as Dotnet } from './icons/dotnet.svg';
+import { ReactComponent as Maven } from './icons/maven.svg';
+import { ReactComponent as Flask } from './icons/flask.svg';
+import { ReactComponent as Agile } from './icons/agile.svg';
+import { ReactComponent as English } from './icons/english.svg';
+import { ReactComponent as Arabic } from './icons/arabic.svg';
 import { SvgIcon, Box, Divider } from '@material-ui/core';
 import styles from './Skills.module.css'
 import cx from 'classnames';
@@ -147,7 +153,7 @@ export default function Skills() {
           </div>
 
           <div>
-          <Typography className={styles.subs}>Operating Systems</Typography> 
+          <Typography className={styles.subs}>OS</Typography> 
             <Box display="flex" flexDirection="row">
                 <Box p={2}>
                     <div className={styles.container}>
@@ -165,6 +171,54 @@ export default function Skills() {
                     <div className={styles.container}>
                         <SvgIcon component={Apple} viewBox="0 0 48 48"/>
                         <Typography className={styles.names}>MacOS</Typography> 
+                    </div>
+                </Box>
+            </Box>
+          </div>
+
+          <div>
+          <Typography className={styles.subs}>App Dev</Typography> 
+            <Box display="flex" flexDirection="row">
+                <Box p={2}>
+                    <div className={styles.container}>
+                        <SvgIcon component={Dotnet} viewBox="0 0 48 48"/>
+                        <Typography className={styles.names}>.NET</Typography> 
+                    </div>
+                </Box>
+                <Box p={2}>
+                    <div className={styles.container}>
+                        <SvgIcon component={Maven} viewBox="0 0 48 48"/>
+                        <Typography className={styles.names}>Maven</Typography> 
+                    </div>
+                </Box>
+                <Box p={2}>
+                    <div className={styles.container}>
+                        <SvgIcon component={Flask} viewBox="0 0 48 48"/>
+                        <Typography className={styles.names}>Flask</Typography> 
+                    </div>
+                </Box>
+                <Box p={2}>
+                    <div className={styles.container}>
+                        <SvgIcon component={Agile} viewBox="0 0 48 48"/>
+                        <Typography className={styles.names}>Agile</Typography> 
+                    </div>
+                </Box>
+            </Box>
+          </div>
+
+          <div>
+          <Typography className={styles.subs}>Other</Typography> 
+            <Box display="flex" flexDirection="row">
+                <Box p={2}>
+                    <div className={styles.container}>
+                        <SvgIcon component={English} viewBox="0 0 48 48"/>
+                        <Typography className={styles.names}>English</Typography> 
+                    </div>
+                </Box>
+                <Box p={2}>
+                    <div className={styles.container}>
+                        <SvgIcon component={Arabic} viewBox="0 0 48 48"/>
+                        <Typography className={styles.names}>Arabic</Typography> 
                     </div>
                 </Box>
             </Box>

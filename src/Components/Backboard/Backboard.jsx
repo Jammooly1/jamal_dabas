@@ -7,12 +7,12 @@ import Rightside from '../RightSide/RightSide';
 function Backboard() {
     return (
         <Grid container className={styles.container}>
-            <Box 
+            <Box className={styles.box}
                 borderRadius="1%"
                 // justifyContent="center"
                 boxShadow={3}
                 bgcolor="white"
-                m={6}
+                m={0}
                 p={2}
                 style={{ width: '64rem', height: '80rem'}}
             >   

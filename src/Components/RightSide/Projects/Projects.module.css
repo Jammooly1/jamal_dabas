@@ -69,7 +69,7 @@
 }
 
 .paper {
-    background-color: #61b8ff;
+    background-color: rgba(97, 184, 255, 0.4) !important;
     /* color: aqua; */
 }
 

@@ -7,11 +7,10 @@ import styles from './Projects.module.css'
  
 function Projects()
 {
-    let flag = false;
     var items = [
         {
             name: "Covid19 Tracker",
-            description: "Shows the number of confirmed cases, recoveries, and deaths globally and per country. Technologies used involve ReactJS as the frontend, Firebase as the backend, and involves using an API.",
+            description: "Shows the number of confirmed cases, recoveries, and deaths globally and per country. Involves using an API.",
             tech: "Firebase, ReactJS, MaterialUI",
             link: "https://covid-19-tracker-6f718.web.app/"
         },
@@ -20,6 +19,12 @@ function Projects()
             description: "An online market place for people and organizations to buy and trade building materials.",
             tech: "Firebase, ReactJS, MaterialUI",
             link: "https://refinder.app/"
+        },
+        {
+            name: "YouChoose",
+            description: "Random Restaurant Generator",
+            tech: "Java, JavaFX",
+            link: "https://devpost.com/software/youchoose-nm3wkd"
         },
         {
             name: "Sneaker Bot",

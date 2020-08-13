@@ -19,3 +19,18 @@
     margin-left: 1.5rem;
 }
 
+/* @media only screen and (min-width: 200px) and (max-width: 770px) and (orientation:portrait) {
+    .box {
+      display: grid;
+      
+      align-items: flex-start !important;
+      justify-content: start !important;
+    }
+  }
+  
+  @media only screen and (min-width: 200px) and (max-width: 770px) and (orientation:landscape) {
+    .box {
+      margin: 0 1%;
+      
+    }
+  } */

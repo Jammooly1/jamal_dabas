@@ -7,7 +7,7 @@
 }
 
 .header {
-    width: 42.5rem;
+    width: 64rem;
     /* height: 6rem; */
     background-color: rgba(253,253,253,.5) !important;
     /* background-color: rgba(0, 255, 221, 0.05 ) !important; */
@@ -65,5 +65,16 @@
 
 .scroll {
     overflow-y: scroll;
-    height: 58.25rem;
+    height: 45.75rem;
+}
+
+.paper {
+    background-color: rgba(97, 184, 255, 0.4) !important;
+    /* color: aqua; */
+}
+
+.button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }

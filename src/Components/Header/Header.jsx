@@ -12,7 +12,7 @@ function Header() {
                     <img src={ProfilePic} alt="profile" className={styles.img}/>
                     <div className={styles.notpic}>
                         <div className={styles.ty}>
-                            <Typography variant="h2">Jamal Dabas</Typography>
+                            <Typography variant="h2" className={styles.name}>Jamal Dabas</Typography>
                             <Typography color="textSecondary" variant="p">
                                 A software engineer with a passion for beautiful full-stack development
                             </Typography>

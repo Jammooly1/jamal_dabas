@@ -4,6 +4,7 @@ import styles from './Backboard.module.css';
 import Header from '../Header/Header';
 import Leftside from '../LeftSide/LeftSide';
 import Rightside from '../RightSide/RightSide';
+import Footer from '../Footer/Footer';
 function Backboard() {
     return (
         <Grid container className={styles.container}>
@@ -14,7 +15,7 @@ function Backboard() {
                 bgcolor="white"
                 m={0}
                 p={2}
-                style={{ width: '64rem', height: '80rem'}}
+                style={{ width: '64rem', height: '90.5rem'}}
             >   
                 <Header/>
                 <Box boxShadow={0} display="flex" flexDirection="row">
@@ -24,10 +25,11 @@ function Backboard() {
                     <div className={styles.right}>
                         <Rightside/>
                     </div>
-                    <div>
+                    {/* <div>
                         
-                    </div>
+                    </div> */}
                 </Box>
+                <Footer/>
             </Box>
         </Grid>
     );
